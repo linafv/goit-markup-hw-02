@@ -21,6 +21,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+ul li {
+  list-style: none;
+}
 .container {
   margin: 0 auto;
   padding: 0 15px;
@@ -37,7 +40,6 @@ a {
 }
 .nav__list {
   letter-spacing: 0.02em;
-  list-style: none;
 }
 .nav__link:hover,
 .nav__link:focus {
@@ -45,7 +47,6 @@ a {
 }
 .header__comm {
   letter-spacing: 0.02em;
-  list-style: none;
 }
 .header__link {
   color: var(--sub-text-color);
@@ -57,9 +58,14 @@ a {
 .footer {
   background: var(--dark-bg);
 }
+.footer__addr {
+  font-style: normal;
+  line-height: 1.7;
+}
 .footer__location {
   color: var(--light-text-color);
 }
 .footer__link {
+  display: block;
   color: var(--footer-link-color);
 }
