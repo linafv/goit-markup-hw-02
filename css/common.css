@@ -27,6 +27,12 @@ ul {
 ul li {
   list-style: none;
 }
+button {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: inherit;
+}
 .container {
   margin: 0 auto;
   padding: 0 15px;
