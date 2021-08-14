@@ -11,7 +11,7 @@
 }
 body {
   font-family: Roboto;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -57,6 +57,7 @@ button {
   color: var(--accent-color);
 }
 .nav__list {
+  font-weight: 500;
   letter-spacing: 0.02em;
 }
 .nav__link:hover,
@@ -64,6 +65,7 @@ button {
   color: var(--accent-color);
 }
 .header__comm {
+  font-weight: 500;
   letter-spacing: 0.02em;
 }
 .header__link {
