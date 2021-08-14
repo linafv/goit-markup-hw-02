@@ -29,6 +29,12 @@ ul li {
   padding: 0 15px;
   max-width: 1200px;
 }
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
 .logo {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
