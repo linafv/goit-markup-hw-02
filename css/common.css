@@ -78,3 +78,7 @@ ul li {
   display: block;
   color: var(--footer-link-color);
 }
+.footer__link:hover,
+.footer__link:focus {
+  color: var(--accent-color);
+}
