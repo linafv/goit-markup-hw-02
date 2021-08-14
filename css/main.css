@@ -1,0 +1,42 @@
+.hero {
+  letter-spacing: 0.06em;
+  background: var(--dark-bg);
+  color: #ffffff;
+}
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.hero__btn {
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  background-color: var(--accent-color);
+  color: inherit;
+  border: none;
+  border-radius: 4px;
+}
+.advantage__header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.advantage__text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--sub-text-color);
+}
+.team {
+  background: var(--light-bg);
+}
+.team__content {
+  font-size: 16px;
+  line-height: 1.2;
+}
+.team__post {
+  color: var(--sub-text-color);
+}
